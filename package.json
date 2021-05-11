@@ -4,10 +4,10 @@
   "description": "Contact Manager application",
   "main": "server.js",
   "scripts": {
-    "start": "server.js",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "react-scripts build",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
