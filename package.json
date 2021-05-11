@@ -1,7 +1,7 @@
 {
   "name": "contact-keeper",
   "version": "1.0.0",
-  "description": "Contact Manager application",
+  "description": "Contact Keeper application",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
